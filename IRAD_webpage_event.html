@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            background-color: bisque;
+            margin: 0%;
+        }
+        #offer{
+            position: fixed;
+            margin-top: 45vh;
+            margin-left: 0%;
+            padding: 7px;
+            padding-left: 0px;
+            border-top-right-radius: 10px;
+            border-end-end-radius: 10px;
+            background-color: white;
+        }
+        #offer>a{
+            color: rgb(255, 126, 79);
+            font-weight: bold;
+            font-size: 18px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+        header{
+            background-color: rgb(42, 42, 90);
+            height: 80px;
+        }
+        #irada_logo{
+            width: 120px;
+            margin:auto;
+            margin-top: 15px;
+        }
+        #menue_logo{
+            
+        }
+        main{
+            padding-top: 50px;
+            margin: 0px;
+            text-align: center;
+            background-color: rgb(56, 56, 95);
+            display: flex;
+            flex-direction: column;
+        }
+        h1{
+            color: rgb(231, 208, 133);
+            font-size: 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 50px;
+        }
+        #event_pages{
+            display: flex;
+            margin: auto;
+            padding:10px;
+            gap: 40px;
+            overflow-x: visible;
+        }
+        .header_page_links{
+            padding:10px;
+            text-decoration: none;
+            color: rgb(199, 199, 199);
+            border: 2px solid rgb(199, 199, 199);
+            border-radius: 7px;
+        }
+        #para1{
+            color: white;
+        }
+        h2{
+            color: rgb(196, 175, 109);
+        }
+        .event_name{
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        .cards::-webkit-scrollbar{
+            display: none;
+        }
+        .cards{
+            overflow-x: scroll;
+            display: flex;
+            margin-bottom: 30px;
+            margin-left: 110px;
+            margin-right: 110px;
+            gap:120px;
+        }
+        .cards:hover{
+            cursor: pointer;
+        }
+        .event_cards{
+            border-radius: 20px;
+            padding: 1px;
+            height: 270px;
+            width: 400px;
+            background-color: aquamarine;
+        }
+        .card_image{
+            border-radius: 20px;
+            width: 350px;
+            height: 200px;
+            border-end-end-radius: 0px;
+            border-end-start-radius: 0px;
+            background-color: blue;
+        }
+        footer{
+            background-color: rgb(238, 236, 236);
+            text-align: center;
+        }
+        footer>div{
+            display: flex;
+            flex-wrap: wrap;
+            gap:10px;
+            padding:5px;
+            margin:0px;
+        }
+        footer>div>section{
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+            max-width: 350px;
+        }
+        footer>div>section>nav{
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .footer_header{
+            font-weight: bold;
+            font-size: 20px;
+            font-family:   Arial, sans-serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-family:  'Lucida Sans', Arial, sans-serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 14px;
+        }
+        @media(max-width:750px){
+            footer>div>section{
+                width: 100%;
+                max-width: 100%;
+            }
+            .cards{
+                margin:60px;
+            }
+        }
+    </style>
+<body>
+    <div id="offer">
+        <a href="#some" >OFFER ZONE</a>
+    </div>
+    <header>
+        <img id="irada_logo" src="https://www.iradafestldce.com/static/media/colorimg.d1ecd7db.png">
+        <img id="menue_logo" src="#h">
+    </header>
+    <main>
+        <h1>EVENTS</h1>
+        <nav id="event_pages">
+            <a href="#l1" class="header_page_links">Technical</a>
+            <a href="#l1" class="header_page_links">Non Technical</a>
+            <a href="#l1" class="header_page_links">Fun Events</a>
+            <a href="#l1" class="header_page_links">Talk Show</a>
+        </nav>
+        <p id="para1">--Scroll Through Above Categories--</p>
+        <h2>TECHNICAL</h2>
+        <section id="computer_it">
+            <p class="event_name">COMPUTER/IT</p>
+            <div class="cards">
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1lotl51dO7VRTKj3x93vHc5vVlv1rPkgs&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1mble5OMYk-h1hVzC3OmTSwxCzzGXE2CS&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1pSVyFHkaenAiaTmDeN9gP6QVh7_M4mYD&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1abJfnA3a6jOjdj-KdbvphfPSa40kv7RG&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1vSOox9kwplHhgigD8pbkPv08bOByNAwi&export=download">
+                </div>
+            </div>
+        </section>
+        <section id="electrical_ic_ec">
+            <p class="event_name">ELECTRICAL/EC/IC</p>
+            <div class="cards">
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1XMVd60pYjz3x7QSBK66GInmyxj7bXBL3&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1GKWxlIE5HUzGBR7p6aS3xW_QWRgw8RAR&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1kwtxjbJUYdijvlTfNfwRfZZqSGVFz7rn&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1P-0e25ZBIh1FHV8beBLyeZdoGk0yr2Xl&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1O44esAjCTcGr_qrkCfTkzVrpZiuRjDf6&export=download">
+                </div>
+            </div>
+        </section>
+        <section id="chemical">
+            <p class="event_name">ELECTRICAL/EC/IC</p>
+            <div class="cards">
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1qU6xfLZ1mt6eDyFcdhHGTuvxEbakqN1H&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1qPn7j_YmiiYL3-WkHQ2RycnPoh0g3VJJ&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1rNNUIV0I6JA5KxJE_bAmmrQO75gaKJpq&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1H3TG9SGYb5SEwjwLkNbuCAzf7YAmL6zW&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1VAnlL128VkXs04UVYeh_Qm1TJQu-br1I&export=download">
+                </div>
+            </div>
+        </section>
+        <section id="civil">
+            <p class="event_name">CIVIL</p>
+            <div class="cards">
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1rKxTelPY2nWwBVvpfb18ftYYG1YSpqFc&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1EF2rAQtKW-EPCiV6luJe4cCj25zTsswc&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1yBx7dUYQm5Le7rGWjbz-flMdIJc5rpPW&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1JyqhUti4OkZqpnAT1ur4hjD6Aaaa1cSV&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1dUcIxyszAYcOBWEsntznGBA2fc2y5mWE&export=download">
+                </div>
+            </div>
+        </section>
+        <section id="automobile_mechanical">
+            <p class="event_name">AUTOMOBILE/MECHANICAL</p>
+            <div class="cards">
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1gg8VPyUvYZFH1TbxjGOcdpAtfCHefHBd&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1WbMhD595VAnoJ0R5HmqiZvJbvUVMNU9o&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1x_gYR7F_RzedwZ_hpCnDytrMmXh-AYlx&export=download">
+                </div>
+                <div class="event_cards">
+                    <img class="card_image" src="https://drive.google.com/uc?id=1ZA8-zxuknW7_7jCzObZ4qumqYzwANXr1&export=download">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <section>
+                <p class="footer_header">IRADA 2022</p>
+                <img id="footer_irada_logo" src="#irada_logo">
+                <p>IRADA 2022 is a National Level Tech Fest Organised By The Innovator Club Of L.D. College Of Engineering, Ahmedabad</p>
+            </section>
+            <section>
+                <p class="footer_header">SITEMAP</p>
+                <nav>
+                    <a href="home">HOME</a>
+                    <a href="home">EVENTS</a>
+                    <a href="home">ABOUT US</a>
+                    <a href="home">OUR TEAM</a>
+                </nav>
+            </section>
+            <section>
+                <p class="footer_header">LINKS</p>
+                <nav>
+                    <a href="#l">CONTACT US</a>
+                    <a href="#l">EVENT DETAILER</a>
+                </nav>
+            </section>
+            <section>
+                <p class="footer_header">SOCIAL</p>
+                <div>
+                    <img src="#ff" onclick="location.href='#ff'">
+                    <img src="#ff" onclick="location.href='#ff'">
+                    <img src="#ff" onclick="location.href='#ff'">
+                </div>
+            </section>
+        </div>
+        <p>&copy 2021 Copyright: IRADA Innovator Club</p>
+    </footer>
+</body>
+</html>
